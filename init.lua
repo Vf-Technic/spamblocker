@@ -2,7 +2,7 @@ local PLAYERS_MSG = {}
 local PLAYERS_FREQ = {}
 local SPAM_SPEED = 5
 local SPAM_SPEED_MSECS = SPAM_SPEED * 1e6
-local SPAM_WARN = 5
+local SPAM_WARN = 3
 -- In seconds
 local SPAM_KICK = SPAM_WARN + 5
 local RESET_TIME = 30
